@@ -165,7 +165,7 @@ pkl.dump(pc2wordsid,      open(f'{transformer_fn}/pc2wordsid.dict', 'wb'))
 #############################################################
 #################  Convert2BERT input  ######################
 #############################################################
-
+# hello
 feat = pkl.load(open(f'{transformer_fn}/sentence.feat', 'rb'))
 pcs = pkl.load(open('database/pc2wordsid.dict', 'rb'))
 id2pcs = {item: key for key, item in pcs.items()}
