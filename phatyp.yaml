@@ -1,4 +1,4 @@
-name: bert
+name: phatyp
 channels:
   - huggingface
   - pytorch
@@ -135,4 +135,4 @@ dependencies:
     - responses==0.18.0
     - xxhash==3.0.0
     - yarl==1.7.2
-prefix: /home/jyshang2/miniconda3/envs/bert
+prefix: /home/abbas/miniconda3/envs/phatyp
